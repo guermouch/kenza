@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tout parcourir</title>
+</head>
+<body>
+    <div id="header">
+        <h1>Tout parcourir</h1>
+    </div>
+    
+    <div id="section">
+        <ul>
+            <li>
+                <a href="#" onclick="navigateTo('Musculation.php')">Activités sportives</a>
+                <ul>
+                    <li><a href="#" onclick="navigateTo('Musculation.php')">Musculation</a></li>
+                    <li><a href="#" onclick="navigateTo('fitness.php')">Fitness</a></li>
+                    <li><a href="#" onclick="navigateTo('biking.php')">Biking</a></li>
+                    <li><a href="#" onclick="navigateTo('Cardio-Training.php')">Cardio-Training</a></li>
+                    <li><a href="#" onclick="navigateTo('cours_collectifs.php')">Cours Collectifs</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" onclick="navigateTo('basketball.php')">Les Sports de compétition</a>
+                <ul>
+                    <li><a href="#" onclick="navigateTo('basketball.php')">Basketball</a></li>
+                    <li><a href="#" onclick="navigateTo('football.php')">Football</a></li>
+                    <li><a href="#" onclick="navigateTo('rugby.php')">Rugby</a></li>
+                    <li><a href="#" onclick="navigateTo('tennis.php')">Tennis</a></li>
+                    <li><a href="#" onclick="navigateTo('natation.php')">Natation</a></li>
+                    <li><a href="#" onclick="navigateTo('plongeon.php')">Plongeon</a></li>
+                </ul>
+            </li>
+            <li><a href="#" onclick="navigateTo('salle_de_sport.php')">Salle de sport Omnes</a></li>
+        </ul>
+    </div>
+
+    <div id="footer">
+        <h1>Sportify</h1>
+    </div>
+
+    <script>
+        function navigateTo(page) {
+            // Redirige vers la page spécifiée
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>

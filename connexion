@@ -1,0 +1,39 @@
+
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Sportify
+  </title>
+<form action="traitementConnexion.php" method="post">
+      <div>  
+        <input type="text" id="Email" name="Email" placeholder="Email" required>
+      </div>
+      <div>
+        <input type="password" id="password" name="password" placeholder="password" required>
+      </div>
+      <div>
+        <input type="submit" value="Se connecter" style='color: #000C1A;'>
+      </div>
+    </form>
+    <div class="error-message"><?php if(isset($_GET['error'])) { echo $_GET['error']; } ?></div>
+    <p style='color: white;'>Vous n'avez pas de compte? <a href="inscriptionClient.php">Inscrivez-vous ici</a></p>
+  </div>
+
+  <footer>
+    <!-- Votre pied de page existant -->
+  </footer>
+
+
+</body>
+
+</html>
